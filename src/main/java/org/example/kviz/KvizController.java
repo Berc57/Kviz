@@ -3,7 +3,7 @@ package org.example.kviz;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class KvizController {
     @FXML
     private Label welcomeText;
 

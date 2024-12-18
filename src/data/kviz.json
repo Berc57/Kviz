@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "Melyik kontinens legkisebb területű?",
+            "answers": [
+                "Európa",
+                "Ausztrália",
+                "Antarktisz",
+                "Dél-Amerika"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Melyik az emberi test legnagyobb szerve?",
+            "answers": [
+                "Máj",
+                "Tüdő",
+                "Bőr",
+                "Szív"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Mi a kémiai jele a só konyhai változatának?",
+            "answers": [
+                "NaCl",
+                "KCl",
+                "NaOH",
+                "HCl"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Melyik országban van a világ legmagasabb épülete?",
+            "answers": [
+                "Katar",
+                "Egyesült Arab Emírségek",
+                "Szaúd-Arábia",
+                "Kuvait"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Melyik bolygón található a Naprendszer legnagyobb holdja, a Ganymedes?",
+            "answers": [
+                "Mars",
+                "Jupiter",
+                "Szaturnusz",
+                "Uránusz"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Ki írta a \"Háború és béke\" című regényt?",
+            "answers": [
+                "Fjodor Dosztojevszkij",
+                "Anton Csehov",
+                "Lev Tolsztoj",
+                "Ivan Turgenyev"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Milyen típusú részecskék alkotják az atommagot?",
+            "answers": [
+                "Elektronok és protonok",
+                "Protonok és neutronok",
+                "Elektronok és neutronok",
+                "Elektronok, protonok és neutronok"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Melyik évben kezdődött az első világháború?",
+            "answers": [
+                "1912",
+                "1914",
+                "1916",
+                "1918"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Melyik ország zászlajában található a legtöbb különböző féle szín?",
+            "answers": [
+                "Thaiföld",
+                "Vietnam",
+                "Dél-Afrika",
+                "Kanada"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Melyik elem található legnagyobb mennyiségben a Föld kérgében?",
+            "answers": [
+                "Alumínium",
+                "Vas",
+                "Szilícium",
+                "Oxigén"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Kit neveztek \"kalapos király\" -nak?",
+            "answers": [
+                "II. József",
+                "I. Lipót",
+                "Hunyadi Mátyás",
+                "IV. Béla"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Hány kromoszóma található az emberi sejtekben?",
+            "answers": [
+                "23",
+                "46",
+                "44",
+                "48"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Melyik ország zászlaja tartalmaz egy sárga sárkányt?",
+            "answers": [
+                "Bhután",
+                "Mongólia",
+                "Nepál",
+                "Kína"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Melyik nem hőmérsékleti mértékegység?",
+            "answers": [
+                "Fahrenheit",
+                "Kelvin",
+                "Joule",
+                "Rankine"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Melyik a világ legnagyobb óceánja?",
+            "answers": [
+                "Atlanti-óceán",
+                "India-óceán",
+                "Csendes-óceán",
+                "Jeges-óceán"
+            ],
+            "correct": 2
+        }
+    ]
+}
