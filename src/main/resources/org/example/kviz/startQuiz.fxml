@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane fx:controller="org.example.kviz.KvizController" prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.kviz.KvizController">
    <children>
       <ImageView fitHeight="480.0" fitWidth="600.0">
          <image>
@@ -28,9 +28,9 @@
             <Font name="Bodoni MT Bold" size="22.0" />
          </font>
       </Label>
-      <Label fx:id="nameError" layoutX="190.0" layoutY="40.0" prefHeight="66.0" prefWidth="220.0" textAlignment="CENTER" textFill="RED">
+      <Label fx:id="nameError" alignment="CENTER" layoutX="20.0" layoutY="38.0" prefHeight="66.0" prefWidth="560.0" textFill="RED">
          <font>
-            <Font size="22.0" />
+            <Font name="Bodoni MT Bold" size="22.0" />
          </font>
       </Label>
    </children>
