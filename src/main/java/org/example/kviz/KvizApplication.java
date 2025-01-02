@@ -10,9 +10,9 @@ import java.io.IOException;
 public class KvizApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(KvizApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1000, 800);
-        stage.setTitle("Kvíz");
+        FXMLLoader fxmlLoader = new FXMLLoader(KvizApplication.class.getResource("startQuiz.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 600, 480);
+        stage.setTitle("Quiz");
         stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
