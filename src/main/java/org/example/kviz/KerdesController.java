@@ -4,6 +4,11 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.paint.Color;
+import javafx.application.Platform;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -44,26 +49,9 @@ public class KerdesController{
     @FXML
     public void loadFiles() throws Exception{
         try (BufferedReader f1 = new BufferedReader(new InputStreamReader(
-                getClass().getResourceAsStream("/data/questions_player_1.txt"), StandardCharsets.UTF_8))) {
+                getClass().getResourceAsStream("/data/questions_player_1.txt"), StandardCharsets.UTF_8))){
             String line;
-            while ((line = f1.readLine()) != null) {
-                String[] parts = line.split("\\|");
-                String questionText = parts[0].split("=")[1];
-                String[] answersArray = parts[1].split("=")[1].split(";");
-                int correctAnswer = Integer.parseInt(parts[2].split("=")[1]);
-
-                ArrayList<String> answers = new ArrayList<>();
-                for (String answer : answersArray) {
-                    answers.add(answer);
-                }
-                questions1.add(new Question(questionText, answers, correctAnswer));
-            }
-        }
-
-        try (BufferedReader f2 = new BufferedReader(new InputStreamReader(
-                getClass().getResourceAsStream("/data/questions_player_2.txt"), StandardCharsets.UTF_8))) {
-            String line;
-            while ((line = f2.readLine()) != null) {
+            while((line = f1.readLine()) != null){
                 String[] parts = line.split("\\|");
                 String questionText = parts[0].split("=")[1];
                 String[] answersArray = parts[1].split("=")[1].split(";");
@@ -73,6 +61,24 @@ public class KerdesController{
                 for (String answer : answersArray){
                     answers.add(answer);
                 }
+
+                questions1.add(new Question(questionText, answers, correctAnswer));
+            }
+        }
+
+        try(BufferedReader f2 = new BufferedReader(new InputStreamReader(
+                getClass().getResourceAsStream("/data/questions_player_2.txt"), StandardCharsets.UTF_8))){
+            String line;
+            while((line = f2.readLine()) != null){
+                String[] parts = line.split("\\|");
+                String questionText = parts[0].split("=")[1];
+                String[] answersArray = parts[1].split("=")[1].split(";");
+                int correctAnswer = Integer.parseInt(parts[2].split("=")[1]);
+
+                ArrayList<String> answers = new ArrayList<>();
+                for(String answer : answersArray){
+                    answers.add(answer);
+                }
                 questions2.add(new Question(questionText, answers, correctAnswer));
             }
         }
@@ -80,10 +86,9 @@ public class KerdesController{
 
     @FXML
     public void loadNextQuestion(){
-        resetButtonStyles();
-
         if(current_player == 1){
-            if(solvedQuestionsPlayer1 >= questions1.size()){
+            if (solvedQuestionsPlayer1 >= questions1.size()){
+                displayResults();
                 return;
             }
             currentPlayer.setText(player1.getName());
@@ -91,6 +96,7 @@ public class KerdesController{
             tmpCorrect = questions1.get(solvedQuestionsPlayer1).getCorrect();
         }else{
             if(solvedQuestionsPlayer2 >= questions2.size()){
+                displayResults();
                 return;
             }
             currentPlayer.setText(player2.getName());
@@ -105,6 +111,7 @@ public class KerdesController{
         q2.setText(questionObj.getAnswers().get(1));
         q3.setText(questionObj.getAnswers().get(2));
         q4.setText(questionObj.getAnswers().get(3));
+        resetButtonStyles();
     }
 
     private void resetButtonStyles(){
@@ -146,34 +153,58 @@ public class KerdesController{
             }
         }else{
             clickedButton.setStyle("-fx-background-color: red; -fx-text-fill: white;");
+            Button correctButton = getCorrectButton(tmpCorrect);
+            correctButton.setStyle("-fx-background-color: green; -fx-text-fill: white;");
             if(current_player == 1){
                 solvedQuestionsPlayer1++;
             }else{
                 solvedQuestionsPlayer2++;
             }
         }
-
-        highlightCorrectAnswer();
+        current_player = (current_player == 1) ? 2 : 1;
 
         new Thread(() -> {
-            try {
+            try{
                 Thread.sleep(1500);
-                javafx.application.Platform.runLater(this::loadNextQuestion);
-            } catch (InterruptedException e) {
+            }catch(InterruptedException e){
                 e.printStackTrace();
             }
+            Platform.runLater(this::loadNextQuestion);
         }).start();
     }
 
-    private void highlightCorrectAnswer() {
-        Button correctButton;
-        switch (tmpCorrect) {
-            case 0 -> correctButton = q1;
-            case 1 -> correctButton = q2;
-            case 2 -> correctButton = q3;
-            case 3 -> correctButton = q4;
-            default -> throw new IllegalStateException("Unexpected value: " + tmpCorrect);
+    private Button getCorrectButton(int correctIndex){
+        switch (correctIndex){
+            case 0:
+                return q1;
+            case 1:
+                return q2;
+            case 2:
+                return q3;
+            case 3:
+                return q4;
+            default:
+                throw new IllegalArgumentException("Invalid correct answer index");
         }
-        correctButton.setStyle("-fx-background-color: green; -fx-text-fill: white;");
+    }
+
+    private void displayResults(){
+        try{
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("endQuiz.fxml"));
+            Parent root = loader.load();
+
+            VegeController vegeController = loader.getController();
+            vegeController.displayResults(player1, player2);
+
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root));
+            stage.setTitle("Quiz Végeredmény");
+            stage.show();
+
+            Stage currentStage = (Stage) currentPlayer.getScene().getWindow();
+            currentStage.close();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
     }
 }
