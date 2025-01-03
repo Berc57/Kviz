@@ -1,10 +1,10 @@
 package org.example.kviz;
 
-public class Player2 {
+public class Player {
     private String name;
     private int score;
 
-    public Player2(String name, int score) {
+    public Player(String name, int score) {
         this.setName(name);
         this.setScore(score);
     }
@@ -22,7 +22,7 @@ public class Player2 {
     }
     @Override
     public String toString() {
-        return "Player2{" +
+        return "Player{" +
                 "name= " + this.getName() +
                 ", score= " + this.getScore() +
                 "}";

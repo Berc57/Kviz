@@ -1,4 +1,5 @@
 module org.example.kviz {
+    requires org.json;
     requires javafx.controls;
     requires javafx.fxml;
 
