@@ -1,8 +1,8 @@
-question=Melyik ország osztozik Finnországgal a leghosszabb közös határon?|answers=Svédország;Norvégia;Oroszország;Észtország|correct=2
-question=Melyik bolygó rendelkezik a legtöbb ismert holddal a Naprendszerben?|answers=Jupiter;Szaturnusz;Uránusz;Neptunusz|correct=1
+question=Melyik ország határos Finnországgal a leghosszabban?|answers=Svédország;Norvégia;Oroszország;Észtország|correct=2
+question=Melyik bolygó rendelkezik a legtöbb ismert holddal?|answers=Jupiter;Szaturnusz;Uránusz;Neptunusz|correct=1
 question=Mi a kémiai képlete a szén-dioxidnak?|answers=CO;CO2;C2O;CH4|correct=1
-question=Melyik városban található a Notre-Dame székesegyház?|answers=Párizs;Rouen;Lyon;Marseille|correct=0
-question=Melyik bolygó forgási tengelye van a legnagyobb mértékben megdőlve?|answers=Vénusz;Uránusz;Neptunusz;Föld|correct=1
+question=Melyik városban található a Notre-Dame?|answers=Párizs;Rouen;Lyon;Marseille|correct=0
+question=Melyik bolygó tengelye van legjobban megdőlve?|answers=Vénusz;Uránusz;Neptunusz;Föld|correct=1
 question=Ki írta a "Bűn és bűnhődés" című regényt?|answers=Lev Tolsztoj;Anton Csehov;Fjodor Dosztojevszkij;Gogol|correct=2
 question=Milyen töltéssel rendelkezik a neutron?|answers=Pozitív;Negatív;Semleges;Változó|correct=2
 question=Melyik évben ért véget az első világháború?|answers=1917;1918;1919;1920|correct=1
