@@ -6,10 +6,10 @@ question=Melyik bolygó tengelye van legjobban megdőlve?|answers=Vénusz;Uránu
 question=Ki írta a "Bűn és bűnhődés" című regényt?|answers=Lev Tolsztoj;Anton Csehov;Fjodor Dosztojevszkij;Gogol|correct=2
 question=Milyen töltéssel rendelkezik a neutron?|answers=Pozitív;Negatív;Semleges;Változó|correct=2
 question=Melyik évben ért véget az első világháború?|answers=1917;1918;1919;1920|correct=1
-question=Melyik ország zászlajában található egy piros fehér félhold és csillag?|answers=Törökország;Malajzia;Tunézia;Pakisztán|correct=0
-question=Melyik elem az első a periódusos rendszer fémjei között?|answers=Lítium;Berillium;Hidrogén;Nátrium|correct=0
-question=Ki volt a híres magyar tudós, aki a dinamométert fejlesztette?|answers=Eötvös Loránd;Bolyai Farkas;Jedlik Ányos;Neumann János|correct=0
-question=Hány természetes állapotot ismerünk jelenleg az anyag számára?|answers=3;4;5;6|correct=1
-question=Melyik ország zászlója tartalmaz három vízszintes kék csíkot?|answers=Finnország;Görögország;Izland;Észtország|correct=1
-question=Melyik mértékegységet használják az elektromos töltés mérésére?|answers=Ohm;Volt;Coulomb;Watt|correct=2
-question=Melyik a világ legmélyebb tengerárka melletti második legmélyebb?|answers=Tongai-árok;Kuril-Kamcsatkai-árok;Filippínó-árok;Kermadec-árok|correct=3
+question=Melyik ország zászlajában van piros-fehér félhold?|answers=Törökország;Malajzia;Tunézia;Pakisztán|correct=0
+question=Melyik elem az első a periódusos rendszer fémjei közt?|answers=Lítium;Berillium;Hidrogén;Nátrium|correct=0
+question=Ki az aki a dinamométert fejlesztette?|answers=Eötvös Loránd;Bolyai Farkas;Jedlik Ányos;Neumann János|correct=0
+question=Hány természetes állapota van az anyagnak?|answers=3;4;5;6|correct=1
+question=Melyik ország zászlója tartalmaz három kék csíkot?|answers=Finnország;Görögország;Izland;Észtország|correct=1
+question=Melyiket használják elektromos töltésnél?|answers=Ohm;Volt;Coulomb;Watt|correct=2
+question=Melyik a világ második legmélyebb tengerárka?|answers=Tongai-árok;Kuril-Kamcsatkai-árok;Filippínó-árok;Kermadec-árok|correct=3

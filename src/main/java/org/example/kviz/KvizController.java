@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class KvizController {
+public class KvizController{
 
     @FXML
     public Button startBTN;
@@ -22,13 +22,11 @@ public class KvizController {
     public Label nameError;
 
     @FXML
-    public void onStartBTNClick() throws Exception {
-        if (p1.getText().trim().length() < 3 || p1.getText().trim().length() > 12 ||
-                p2.getText().trim().length() < 3 || p2.getText().trim().length() > 12 ||
-                p1.getText().trim().equals(p2.getText().trim())) {
+    public void onStartBTNClick() throws Exception{
+        if(p1.getText().trim().length() < 3 || p1.getText().trim().length() > 12 || p2.getText().trim().length() < 3 || p2.getText().trim().length() > 12 || p1.getText().trim().equals(p2.getText().trim())){
             nameError.setTextFill(Color.RED);
             nameError.setText("Nem megfelelőek a felhasználónevek");
-        } else {
+        }else{
             nameError.setTextFill(Color.GREEN);
             nameError.setText("Felhasználók elfogadva: " + p1.getText() + ", " + p2.getText());
 
@@ -37,7 +35,7 @@ public class KvizController {
     }
 
     @FXML
-    public void loadNextScene(String player1Name, String player2Name) throws IOException {
+    public void loadNextScene(String player1Name, String player2Name) throws IOException{
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("questionsQuiz.fxml"));
         Parent root = fxmlLoader.load();
 
