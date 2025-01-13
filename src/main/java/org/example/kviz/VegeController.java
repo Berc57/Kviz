@@ -20,6 +20,6 @@ public class VegeController{
             result1.setStyle("-fx-text-fill: white;");
             result1.setText("Döntetlen!");
         }
-        result2.setText("Pontszámok: \n" + player1.getName() + " - " + player1.getScore() + ", \n" + player2.getName() + " - " + player2.getScore());
+        result2.setText("Pontszámok: \n" + player1.getName() + " - " + player1.getScore() + "\n" + player2.getName() + " - " + player2.getScore());
     }
 }

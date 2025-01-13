@@ -36,5 +36,20 @@
             <Font name="Bodoni MT Bold" size="22.0" />
          </font>
       </Label>
+      <Button fx:id="felezesButton" onAction="#onFelezesClick" layoutX="137.0" layoutY="417.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="86.0" text="Felezés" textAlignment="CENTER">
+         <font>
+            <Font name="Bodoni MT Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="kozonsegSzavazButton" onAction="#onKozonsegSzavazas" layoutX="257.0" layoutY="417.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="86.0" text="Közönség" textAlignment="CENTER">
+         <font>
+            <Font name="Bodoni MT Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="telefonButton" onAction="#onTelefon" layoutX="387.0" layoutY="417.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="86.0" text="Telefon" textAlignment="CENTER">
+         <font>
+            <Font name="Bodoni MT Bold" size="16.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

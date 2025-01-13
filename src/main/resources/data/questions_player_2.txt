@@ -1,10 +1,15 @@
-question=Melyik évben kezdődött a százéves háború?|answers=1337;1453;1066;1492|correct=0
-question=Ki volt Nagy Sándor tanítója?|answers=Platón;Arisztotelész;Szókratész;Periklész|correct=1
-question=Melyik város volt az Oszmán Birodalom fővárosa a leghosszabb ideig?|answers=Isztambul;Edirne;Bursa;Ankara|correct=0
-question=Melyik szerző írta a Magna Cartát?|answers=II. Henrik;I. János;Vilmos herceg;II. Edward|correct=1
-question=Melyik csata döntötte el Napóleon végső vereségét?|answers=Borogyinói csata;Waterloo-i csata;Austerlitzi csata;Lipcsei csata|correct=1
-question=Melyik király uralkodása alatt kezdődött az angol polgárháború?|answers=I. Károly;II. Károly;VIII. Henrik;I. Erzsébet|correct=0
-question=Ki alapította a Római Birodalmat?|answers=Romulus;Julius Caesar;Augustus;Nero|correct=2
-question=Melyik évben foglalták el Konstantinápolyt az oszmánok?|answers=1453;1492;1204;1571|correct=0
-question=Melyik ország vezette a reformációt Európában?|answers=Németország;Anglia;Franciaország;Spanyolország|correct=0
-question=Ki írta az 'A fejedelem' című művet?|answers=Niccolò Machiavelli;Thomas Hobbes;Jean-Jacques Rousseau;Voltaire|correct=0
+question=Melyik ország határos Finnországgal a leghosszabban?|answers=Svédország;Norvégia;Oroszország;Észtország|correct=2
+question=Melyik bolygó rendelkezik a legtöbb ismert holddal?|answers=Jupiter;Szaturnusz;Uránusz;Neptunusz|correct=1
+question=Mi a kémiai képlete a szén-dioxidnak?|answers=CO;CO2;C2O;CH4|correct=1
+question=Melyik városban található a Notre-Dame?|answers=Párizs;Rouen;Lyon;Marseille|correct=0
+question=Melyik bolygó tengelye van legjobban megdőlve?|answers=Vénusz;Uránusz;Neptunusz;Föld|correct=1
+question=Ki írta a "Bűn és bűnhődés" című regényt?|answers=Lev Tolsztoj;Anton Csehov;Fjodor Dosztojevszkij;Gogol|correct=2
+question=Milyen töltéssel rendelkezik a neutron?|answers=Pozitív;Negatív;Semleges;Változó|correct=2
+question=Melyik évben ért véget az első világháború?|answers=1917;1918;1919;1920|correct=1
+question=Melyik ország zászlajában található egy piros fehér félhold és csillag?|answers=Törökország;Malajzia;Tunézia;Pakisztán|correct=0
+question=Melyik elem az első a periódusos rendszer fémjei között?|answers=Lítium;Berillium;Hidrogén;Nátrium|correct=0
+question=Ki volt a híres magyar tudós, aki a dinamométert fejlesztette?|answers=Eötvös Loránd;Bolyai Farkas;Jedlik Ányos;Neumann János|correct=0
+question=Hány természetes állapotot ismerünk jelenleg az anyag számára?|answers=3;4;5;6|correct=1
+question=Melyik ország zászlója tartalmaz három vízszintes kék csíkot?|answers=Finnország;Görögország;Izland;Észtország|correct=1
+question=Melyik mértékegységet használják az elektromos töltés mérésére?|answers=Ohm;Volt;Coulomb;Watt|correct=2
+question=Melyik a világ legmélyebb tengerárka melletti második legmélyebb?|answers=Tongai-árok;Kuril-Kamcsatkai-árok;Filippínó-árok;Kermadec-árok|correct=3

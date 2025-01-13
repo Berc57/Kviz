@@ -1,10 +1,15 @@
-question=Mennyi az 56 osztva 7-tel, majd megszorozva 3-mal?|answers=21;24;27;30|correct=0
-question=Egy derékszögű háromszögben az egyik befogó 6 egység, a másik befogó 8 egység. Mennyi az átfogó hossza?|answers=10 egység;12 egység;14 egység;16 egység|correct=0
-question=Mennyi a 2 a 8-adik hatványon értéke?|answers=128;256;512;1024|correct=1
-question=Egy kör sugara 5 egység. Mennyi a kör területe (π értéke 3.14)?|answers=78.5 egység^2;79 egység^2;80 egység^2;78 egység^2|correct=0
-question=Mi a valószínűsége annak, hogy egy kockával 6-ot dobsz?|answers=1/2;1/4;1/6;1/8|correct=2
-question=Egy számtani sorozat első tagja 3, differenciája 5. Mennyi a sorozat 10. tagja?|answers=45;48;50;53|correct=3
-question=Mennyi a sin(30°) értéke?|answers=0.5;0.707;0.866;1|correct=0
-question=Mennyi az 5! (azaz 5 faktoriális) értéke?|answers=60;100;120;150|correct=2
-question=Egy téglatest térfogata 120 egység^3, alaplapja 10 egység^2. Mekkora a magassága?|answers=10 egység;12 egység;15 egység;20 egység|correct=1
-question=Mennyi a log2(16) értéke?|answers=2;3;4;5|correct=2
+question=Melyik kontinens legkisebb területű?|answers=Európa;Ausztrália;Antarktisz;Dél-Amerika|correct=1
+question=Melyik az emberi test legnagyobb szerve?|answers=Máj;Tüdő;Bőr;Szív|correct=2
+question=Mi a kémiai jele a só konyhai változatának?|answers=NaCl;KCl;NaOH;HCl|correct=0
+question=Melyik országban van a legmagasabb épület?|answers=Katar;Egyesült Arab Emírségek;Szaúd-Arábia;Kuvait|correct=1
+question=Melyik bolygó-é a Naprendszer legnagyobb holdja?|answers=Mars;Jupiter;Szaturnusz;Uránusz|correct=1
+question=Ki írta a "Háború és béke" című regényt?|answers=Fjodor Dosztojevszkij;Anton Csehov;Lev Tolsztoj;Ivan Turgenyev|correct=2
+question=Milyen típusú részecskék alkotják az atommagot?|answers=Elektronok és protonok;Protonok és neutronok;Elektronok és neutronok;Elektronok, protonok és neutronok|correct=1
+question=Melyik évben kezdődött az első világháború?|answers=1912;1914;1916;1918|correct=1
+question=Melyik ország zászlaja a legtöbb különböző színű?|answers=Thaiföld;Vietnam;Dél-Afrika;Kanada|correct=2
+question=Melyik található legnagyobb mennyiségben a Földön?|answers=Alumínium;Vas;Szilícium;Oxigén|correct=3
+question=Kit neveztek "kalapos király" -nak?|answers=II. József;I. Lipót;Hunyadi Mátyás;IV. Béla|correct=1
+question=Hány kromoszóma található az emberi sejtekben?|answers=23;46;44;48|correct=1
+question=Melyik ország zászlajában van sárga sárkányt?|answers=Bhután;Mongólia;Nepál;Kína|correct=0
+question=Melyik nem hőmérsékleti mértékegység?|answers=Fahrenheit;Kelvin;Joule;Rankine|correct=2
+question=Melyik a világ legnagyobb óceánja?|answers=Atlanti-óceán;India-óceán;Csendes-óceán;Jeges-óceán|correct=2
